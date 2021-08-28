@@ -13,12 +13,12 @@ public class Serializacion {
 	private FileOutputStream fileOutput;
 	private ObjectOutputStream escritura;
 	
-	public void serializarObjeto(Ficha ficha) {
+	public void serializarDatos(Jugador jugador) {
 		try {
 			fileOutput = new FileOutputStream("src/objetoSerializado/fichaSerializada");
 			
 			escritura = new ObjectOutputStream(fileOutput);
-			escritura.writeObject(ficha);
+			//escritura.writeObject(ficha);
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -36,7 +36,7 @@ public class Serializacion {
 		}
 	}
 	
-	public Ficha deserializarObjeto() {
+	/*public Ficha deserializarObjeto() {
 
 		Ficha ficha = null;
 
@@ -58,7 +58,7 @@ public class Serializacion {
 		}
 		return ficha;
 	}
-	
+	*/
 	
 }
   
