@@ -13,6 +13,8 @@ public class Jugador {
 	
 	public Jugador() {
 		//sisas
+		//hola mafli
+		
 	}
 
 
