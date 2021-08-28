@@ -12,7 +12,7 @@ public class Jugador {
 	
 	
 	public Jugador() {
-		
+		//sisas
 	}
 
 
