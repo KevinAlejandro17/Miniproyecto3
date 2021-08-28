@@ -60,8 +60,6 @@ public class WordGameGUI extends JFrame {
 		//definirGUI();
 		
 		
-		
-		
 		palabras = new JTextField(15);
 		palabras.setEnabled(true);
 		palabras.addKeyListener(tecla);
